@@ -214,7 +214,7 @@ function okast_basic_profile_modules() {
     'content', 'nodereference', 'number', 'optionwidgets', 'text', 'userreference',
     
     // contrib modules
-    'admin',
+    'admin_menu',
     'advanced_help',
     'backup_migrate',
     'better_formats',
