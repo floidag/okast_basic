@@ -1,6 +1,6 @@
 <?php
 
-function okast_basic_basic_profile_details() {
+function okast_basic_profile_details() {
   return array(
     'name' => 'Okast Basic',
     'description' => 'Okast Basic install profile enabling some modules and making some thoughtful configurations.'
