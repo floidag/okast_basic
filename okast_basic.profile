@@ -232,7 +232,6 @@ function okast_basic_profile_modules() {
     'link',
     'login_destination',
     'module_filter',
-    'nodeformsettings',
     'pathauto',
     'publishcontent',
     'vertical_tabs',
