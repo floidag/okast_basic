@@ -104,7 +104,12 @@ function okast_basic_profile_tasks(&$task, $url) {
     ),
   ));
   
-  
+  // Timezone
+  variable_set('date_default_timezone', 3600);
+  variable_set('date_default_timezone_name', 'Europe/Zurich');
+  variable_set('configurable_timezones', '0');
+  variable_set('date_first_day', '1');
+  variable_set('date_api_use_iso8601', 1);
   
   // Create Home Page.
   $node = new StdClass();
