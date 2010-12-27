@@ -16,7 +16,10 @@ function okast_basic_profile_tasks(&$task, $url) {
   
   db_query("DELETE FROM {blocks}");
   
+  // Admin theme
   install_admin_theme('rubik');
+  variable_set('node_admin_theme', 1);
+  
   
   // Global theme settings
   variable_set('theme_settings', array(
@@ -81,8 +84,7 @@ function okast_basic_profile_tasks(&$task, $url) {
   // Configure user settings. Set user creation to administrator only.
   variable_set('anonymous', 'Guest');
   
-  variable_set('node_admin_theme', 1);
-  
+  // Pathauto
   variable_set('pathauto_node_page_pattern', '[title-raw]');
   
   // Image API: use GD2 and set quality to 100%
